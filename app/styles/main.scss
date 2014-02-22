@@ -68,15 +68,15 @@ body {
 }
 
 /* Main marketing message and sign up button */
-.jumbotron {
-    background-color: rgb(255,255,255);
-    text-align: center;
-    border-bottom: 1px solid #e5e5e5;
-    .btn {
-        font-size: 21px;
-        padding: 14px 24px;
-    }
-}
+// .jumbotron {
+//     background-color: rgb(255,255,255);
+//     text-align: center;
+//     border-bottom: 1px solid #e5e5e5;
+//     .btn {
+//         font-size: 21px;
+//         padding: 14px 24px;
+//     }
+// }
 
 /* Supporting marketing content */
 .marketing {
@@ -115,6 +115,33 @@ body {
     color: #fbb912;
 }
 
+
+.logo {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.logo-main {
+     font-family: "Moon Flower Bold";
+     font-style: bold;
+     font-size: 20px;
+     font-size: 70px;
+     color: #f689b8;
+     text-align: center;
+
+}
+
+.logo-sub {
+    font-family: "Champagne & Limousines";
+    font-size: 24px;
+    color: #a6cf3c;
+    text-align: center;
+    position: relative;
+    left: -5px;
+}
+
 .smoothie {
 
     color: white;
@@ -143,13 +170,31 @@ body {
 
 .dropdownbtns {
     margin: 20px;
+    margin-bottom: 130px;
 }
 
 .mainbtn {
     width: 200px;
 }
 
-.create-your-own {
+.createbtn {
+    color: white;
     width: 500px;
-    margin-left: 40px;
+    margin-left: 280px;
+    margin-top: -32px;
+}
+
+.create-your-own {
+    margin-left: -178px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.jumbotrontwo {
+    // margin: 0px 90px;
+    margin: 0px 287px;
+}
+
+.mainbtn-two {
+    width: 120px;
 }
