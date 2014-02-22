@@ -21,10 +21,19 @@ body {
 
     // #fbb912 = orange
 
+       
+
+    // #e0f1b9 = lighter green
+
     // #a6cf3c = green
 
-    // #100d0d
+    // #100d0d = black
+
+    // #fae9f4
+
+    // rbg(86,86,86) = greyish black
 }
+
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
@@ -104,4 +113,26 @@ body {
 
 .tabs {
     color: #fbb912;
+}
+
+.smoothie {
+
+    color: white;
+    background-color: #f689b8;
+    border-color: white;
+    // background: #f689b8; /* Old browsers */
+    // background: -moz-linear-gradient(top,  #f689b8 0%, #f4bed5 99%, #f4bed5 99%); /* FF3.6+ */
+    // background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f689b8), color-stop(99%,#f4bed5), color-stop(99%,#f4bed5)); /* Chrome,Safari4+ */
+    // background: -webkit-linear-gradient(top,  #f689b8 0%,#f4bed5 99%,#f4bed5 99%); /* Chrome10+,Safari5.1+ */
+    // background: -o-linear-gradient(top,  #f689b8 0%,#f4bed5 99%,#f4bed5 99%); /* Opera 11.10+ */
+    // background: -ms-linear-gradient(top,  #f689b8 0%,#f4bed5 99%,#f4bed5 99%); /* IE10+ */
+    // background: linear-gradient(to bottom,  #f689b8 0%,#f4bed5 99%,#f4bed5 99%); /* W3C */
+    // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f689b8', endColorstr='#f4bed5',GradientType=0 ); /* IE6-9 */
+    // border-color: #cccccc;
+}
+
+.juice {
+    background-color: #a6cf3c;
+    border-color: white;
+    color: white;
 }
