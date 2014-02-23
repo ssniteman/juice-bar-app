@@ -49,8 +49,8 @@ body {
 
     /* Make the masthead heading the same height as the navigation */
     h3 {
-        margin-top: 0;
         margin-bottom: 0;
+        margin-top: 50px;
         line-height: 40px;
         padding-bottom: 19px;
     }
@@ -89,7 +89,7 @@ body {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 730px;
+        max-width: 782px;
     }
 
     /* Remove the padding we set earlier */
@@ -115,7 +115,28 @@ body {
     color: #fbb912;
 }
 
+.frontpic {
+    width: 100px;
+    height: 150px;
+    display: inline-block;
+    margin: 38px;
 
+}
+
+.frontpicdiv {
+    margin-top: 50px;
+}
+
+.frontpicdivtwo {
+    margin-left: 195px;
+}
+
+.smoothie {
+    height: 141px;
+    margin-top: 55px;
+}
+
+    
 .logo {
     display: block;
     width: 300px;
@@ -126,12 +147,21 @@ body {
 .logo-main {
      font-family: "Moon Flower Bold";
      font-style: bold;
-     font-size: 20px;
      font-size: 70px;
      color: #f689b8;
      text-align: center;
 
 }
+
+.logomaintwo {
+    margin: 0 auto;
+    font-family: "Moon Flower Bold";
+    font-style: bold;
+    font-size: 70px;
+    color: #f689b8;
+    width: 40%;
+}
+
 
 .logo-sub {
     font-family: "Champagne & Limousines";
@@ -142,27 +172,6 @@ body {
     left: -5px;
 }
 
-.smoothie {
-
-    color: white;
-    background-color: #f689b8;
-    border-color: white;
-    // background: #f689b8; /* Old browsers */
-    // background: -moz-linear-gradient(top,  #f689b8 0%, #f4bed5 99%, #f4bed5 99%); /* FF3.6+ */
-    // background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f689b8), color-stop(99%,#f4bed5), color-stop(99%,#f4bed5)); /* Chrome,Safari4+ */
-    // background: -webkit-linear-gradient(top,  #f689b8 0%,#f4bed5 99%,#f4bed5 99%); /* Chrome10+,Safari5.1+ */
-    // background: -o-linear-gradient(top,  #f689b8 0%,#f4bed5 99%,#f4bed5 99%); /* Opera 11.10+ */
-    // background: -ms-linear-gradient(top,  #f689b8 0%,#f4bed5 99%,#f4bed5 99%); /* IE10+ */
-    // background: linear-gradient(to bottom,  #f689b8 0%,#f4bed5 99%,#f4bed5 99%); /* W3C */
-    // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f689b8', endColorstr='#f4bed5',GradientType=0 ); /* IE6-9 */
-    // border-color: #cccccc;
-}
-
-.juice {
-    background-color: #a6cf3c;
-    border-color: white;
-    color: white;
-}
 
 .tabs {
     color: #999999;
@@ -192,9 +201,43 @@ body {
 
 .jumbotrontwo {
     // margin: 0px 90px;
-    margin: 0px 287px;
+    // margin: 0px 287px;
+    // margin-right: 10px;
 }
 
 .mainbtn-two {
     width: 120px;
 }
+
+.info {
+    border-bottom: 1px solid white;
+    margin-top: -20px;
+}
+
+.info-two {
+    color: #fbb912;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 228px;
+
+}
+
+.info-three {
+    text-align: center;
+    color: #BEABE8;
+    font-size: 20px;
+    margin-bottom: 25px;  
+    display: inline-block;
+    // margin-left: 215px;
+}
+
+
+.btn {
+    background-color: #BEABE8;
+    border-color: white;
+}
+
+// .btn-danger {
+//     background-color: white;
+// }
+
